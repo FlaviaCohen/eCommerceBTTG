@@ -54,6 +54,6 @@ npm run build
 * [Redux](https://redux.js.org/introduction/getting-started)
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction) 
 * [Sequelize](https://sequelize.org)
-
+* [Node](https://nodejs.org/es/docs)
 
 
