@@ -1,32 +1,59 @@
 # Back-to-the-Game
 
-Este proyecto fue un trabajo grupal realizado por mi persona (@facundonovaro), Joaquín Gaona, Flavia Cohen, Cristian Chavarro y Dennis Romero durante nuestro coding bootcamp en Plataforma 5.
+## Autores
 
-Es un eCommerce, que debe cumplir con algunos requisitos, tales como:
+**Flavia Cohen** - [GitHub](https://github.com/FlaviaCohen)
+**Cristian Luna** - [GitHub](https://github.com/cristianlunachavarro)
+**Facundo Novaro** - [GitHub](https://github.com/facundonovaro)
+**Joaquín Gaona** - [GitHub](https://github.com/joacogaona)
+**Dennis Romero** - [GitHub](https://github.com/dennismromeroa)
 
-- Poder visualizar la grilla de productos
-- Visualizar porductos por categoría
-- Visualizar el detalle por producto
-- Agregar prpoductos al carrito estando loggeado y no loggeado, y que el carrito de productos persista. A su vez, alrefrescar la página, la información del carrito no se pierde.
-- Poder modificar las cantidades de productos en el carrito y removerlos
+Es un eCommerce que cumple con algunos requisitos, tales como:
+
+- Poder visualizar una grilla de productos
+- Visualizar productos por categoría
+- Visualizar el detalle de un producto individual
+- Agregar productos al carrito estando loggeado y no loggeado, y que el carrito de productos persista. 
+- Que el carrito persista al refrescar la página.
+- Poder modificar las cantidades de productos en el carrito 
+- Poder remover productos del carrito
 - Poder finalizar la compra
 - Registrarse
-- Iniciar Sesión
+- Iniciar sesión con un usuario registrado
 - Vista de admin: Editar productos (Alta, baja y modificación), Manejar accesos de usuarios (en el archivo seed.js se crea un usuario con rol de super admin) y ver historial de órdenes.
 
-Está realizado con React redux, node, express, postgres, sequelize, webpack, passport y react bootstrap principalmente.
+Para instalar el proyecto de manera local:
 
-This project was a teamwork made by myself (@facundonovaor), Joaquín Gaona, Flavia Cohen, Cristian Chavarro, and Dennis Romero, during our coding bootcamp in Plataforma 5.
+Posicionarse en la carpeta /back y correr en la terminal
 
-It is an eCommerce, that must have some features, such as:
+```
+npm i
+```
+```
+npm run seed.js
+```
+```
+npm start
+```
+```
+http://localhost:1337
+```
 
-- Visualize all products
-- Filter products by category
-- Visualize a product's detail
-- Add products to cart being logged in and not logged in, and having a cart that persists the information. Even so, the cart should persist when the page is refreshed.
-- Edit the cart, change quantites and delete products
-- Buy products
-- Sign up
-- Log in
-- Admin views: Edit products (new products, edit, and delete), manage users access (there is a super admin user created on the seed.js file) and see all transactions.
-It is made with React redux, node, express, postgres, sequelize, webpack, passport y react bootstrap mainly.
+Posicionarse en la carpeta /front y correr en la terminal
+
+```
+npm i
+```
+```
+npm run build
+```
+
+## Built With
+
+* [React](https://es.reactjs.org/docs/getting-started.html) 
+* [Redux](https://redux.js.org/introduction/getting-started)
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction) 
+* [Sequelize](https://sequelize.org)
+
+
+
